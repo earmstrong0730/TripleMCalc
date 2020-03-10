@@ -1,0 +1,8 @@
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\TripleMCalc.WPF.csprojAssemblyReference.cache
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\TripleMCalc.WPF.exe.config
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\Views\FirstView.baml
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\Views\FirstView.g.cs
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\App.g.cs
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\TripleMCalc.WPF_MarkupCompile.cache
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.WPF\obj\Debug\TripleMCalc.WPF_MarkupCompile.lref
