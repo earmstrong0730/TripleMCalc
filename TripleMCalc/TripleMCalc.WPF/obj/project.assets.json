@@ -5571,11 +5571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\TripleMCalc.WPF.csproj",
+      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\TripleMCalc.WPF.csproj",
       "projectName": "TripleMCalc.WPF",
-      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\TripleMCalc.WPF.csproj",
+      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\TripleMCalc.WPF.csproj",
       "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\obj\\",
+      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.WPF\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -5596,8 +5596,8 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
-              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
+            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
+              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
             }
           }
         }
