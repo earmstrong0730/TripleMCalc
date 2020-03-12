@@ -26681,11 +26681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\TripleMCalc.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\TripleMCalc.UWP.csproj",
       "projectName": "TripleMCalc.UWP",
-      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\TripleMCalc.UWP.csproj",
+      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\TripleMCalc.UWP.csproj",
       "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -26707,8 +26707,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
-              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
+            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
+              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
             }
           }
         }

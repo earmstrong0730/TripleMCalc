@@ -3997,11 +3997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\TripleMCalc.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\TripleMCalc.Droid.csproj",
       "projectName": "TripleMCalc.Droid",
-      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\TripleMCalc.Droid.csproj",
+      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\TripleMCalc.Droid.csproj",
       "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\obj\\",
+      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4022,8 +4022,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
-              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
+            "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
+              "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
             }
           }
         }

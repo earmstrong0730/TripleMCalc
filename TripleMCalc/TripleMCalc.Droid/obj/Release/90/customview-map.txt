@@ -1,0 +1,33 @@
+attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
+attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+color;obj\Release\90\res\values\colors.xml
+declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
+declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+dimen;obj\Release\90\res\values\dimens.xml
+EditText;obj\Release\90\res\layout\calculatorlayout.xml
+integer;obj\Release\90\res\values\integers.xml
+item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\ids.xml
+item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
+item;obj\Release\90\res\values\arrays.xml
+item;obj\Release\90\res\values\splashstyle.xml
+item;obj\Release\90\res\values\styles.xml
+item;obj\Release\90\res\values-v21\styles.xml
+LinearLayout;obj\Release\90\res\layout\calculatorlayout.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\ids.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\4\jl\res\xml\empty.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+resources;obj\Release\90\res\values\arrays.xml
+resources;obj\Release\90\res\values\colors.xml
+resources;obj\Release\90\res\values\dimens.xml
+resources;obj\Release\90\res\values\integers.xml
+resources;obj\Release\90\res\values\splashstyle.xml
+resources;obj\Release\90\res\values\strings.xml
+resources;obj\Release\90\res\values\styles.xml
+resources;obj\Release\90\res\values-v21\styles.xml
+string;obj\Release\90\res\values\strings.xml
+string-array;obj\Release\90\res\values\arrays.xml
+style;obj\Release\90\res\values\splashstyle.xml
+style;obj\Release\90\res\values\styles.xml
+style;obj\Release\90\res\values-v21\styles.xml
+TextView;obj\Release\90\res\layout\calculatorlayout.xml

@@ -4126,11 +4126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
       "projectName": "TripleMCalc.Core",
-      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
+      "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
       "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\obj\\",
+      "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj": {}
+    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
+    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
         "projectName": "TripleMCalc.Core",
-        "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
+        "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj",
         "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\obj\\",
+        "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj": {
+    "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj",
         "projectName": "TripleMCalc.iOS",
-        "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj",
+        "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\TripleMCalc.iOS.csproj",
         "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -100,8 +100,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
-                "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\Xamarin\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
+              "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj": {
+                "projectPath": "C:\\Users\\Elizabeth\\Documents\\Visual Studio 2019\\Projects\\TripleMCalc\\TripleMCalc\\TripleMCalc.Core\\TripleMCalc.Core.csproj"
               }
             }
           }

@@ -5,3 +5,11 @@ C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\Tri
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.AssemblyInfo.cs
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.dll
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\Xamarin\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.pdb
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\bin\Debug\netstandard1.4\TripleMCalc.Core.deps.json
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\bin\Debug\netstandard1.4\TripleMCalc.Core.dll
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\bin\Debug\netstandard1.4\TripleMCalc.Core.pdb
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.csprojAssemblyReference.cache
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.AssemblyInfoInputs.cache
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.AssemblyInfo.cs
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.dll
+C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.pdb
