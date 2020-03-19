@@ -179,6 +179,44 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Plugin.InAppBilling/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "Plugin.CurrentActivity": "2.1.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.InAppBilling.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.InAppBilling.VendingLibrary.dll": {},
+          "lib/MonoAndroid10/Plugin.InAppBilling.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.InAppBilling.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.InAppBilling.VendingLibrary.dll": {},
+          "lib/MonoAndroid10/Plugin.InAppBilling.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "compile": {
@@ -1152,6 +1190,94 @@
         "dotnet_library_license.txt",
         "netstandard.library.1.6.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "newtonsoft.json/9.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.2": {
+      "sha512": "uiMbA0G1ulSEj7MtGUQDDhzw80+QgvH5ts+Yt9cyft1dF4Eb0tYxiXAgNPuohJXpxhZmRs+6ZjL6QBaL/wUKDQ==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.2.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Plugin.InAppBilling/2.0.0": {
+      "sha512": "NAuSohkp1QP4Z9WMGi1NhZBDomfKNgKgLCnoheRBJ3NRv+R4qi92LtO3hJWT2rcxl+HvPc/CgIhh4uD6MNNH0A==",
+      "type": "package",
+      "path": "plugin.inappbilling/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.InAppBilling.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.InAppBilling.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.InAppBilling.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.InAppBilling.VendingLibrary.dll",
+        "lib/MonoAndroid10/Plugin.InAppBilling.VendingLibrary.pdb",
+        "lib/MonoAndroid10/Plugin.InAppBilling.VendingLibrary.xml",
+        "lib/MonoAndroid10/Plugin.InAppBilling.XML",
+        "lib/MonoAndroid10/Plugin.InAppBilling.dll",
+        "lib/MonoAndroid10/Plugin.InAppBilling.pdb",
+        "lib/UAP10/Plugin.InAppBilling.Abstractions.dll",
+        "lib/UAP10/Plugin.InAppBilling.Abstractions.pdb",
+        "lib/UAP10/Plugin.InAppBilling.Abstractions.xml",
+        "lib/UAP10/Plugin.InAppBilling.XML",
+        "lib/UAP10/Plugin.InAppBilling.dll",
+        "lib/UAP10/Plugin.InAppBilling.pdb",
+        "lib/UAP10/Plugin.InAppBilling.pri",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.XML",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.dll",
+        "lib/Xamarin.iOS10/Plugin.InAppBilling.pdb",
+        "lib/netstandard1.0/Plugin.InAppBilling.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.InAppBilling.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.InAppBilling.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.InAppBilling.deps.json",
+        "lib/netstandard1.0/Plugin.InAppBilling.dll",
+        "lib/netstandard1.0/Plugin.InAppBilling.pdb",
+        "lib/netstandard1.0/Plugin.InAppBilling.xml",
+        "lib/xamarintvos/Plugin.InAppBilling.Abstractions.dll",
+        "lib/xamarintvos/Plugin.InAppBilling.Abstractions.pdb",
+        "lib/xamarintvos/Plugin.InAppBilling.Abstractions.xml",
+        "lib/xamarintvos/Plugin.InAppBilling.dll",
+        "lib/xamarintvos/Plugin.InAppBilling.pdb",
+        "lib/xamarintvos/Plugin.InAppBilling.xml",
+        "plugin.inappbilling.2.0.0.nupkg.sha512",
+        "plugin.inappbilling.nuspec",
+        "readme.txt"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -3974,6 +4100,7 @@
       "MvvmCross.Droid.Support.V7.AppCompat >= 5.2.1",
       "MvvmCross.Droid.Support.V7.RecyclerView >= 5.2.1",
       "MvvmCross.Platform >= 5.2.1",
+      "Plugin.InAppBilling >= 2.0.0",
       "TripleMCalc.Core >= 1.0.0",
       "Xamarin.Android.Support.Animated.Vector.Drawable >= 25.4.0.2",
       "Xamarin.Android.Support.Annotations >= 25.4.0.2",
@@ -4063,6 +4190,10 @@
           "MvvmCross.Platform": {
             "target": "Package",
             "version": "[5.2.1, )"
+          },
+          "Plugin.InAppBilling": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "Xamarin.Android.Support.Animated.Vector.Drawable": {
             "target": "Package",

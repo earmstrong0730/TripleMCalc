@@ -142,6 +142,10 @@
               "target": "Package",
               "version": "[5.2.1, )"
             },
+            "Plugin.InAppBilling": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Xamarin.Android.Support.Animated.Vector.Drawable": {
               "target": "Package",
               "version": "[25.4.0.2, )"
