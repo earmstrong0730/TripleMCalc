@@ -30,24 +30,24 @@ namespace TripleMCalc.Droid
         }
     }
 
-    public async Task<bool> MakePurchase()
-    {
-        if (!CrossInAppBilling.IsSupported)
-            return false;
+    //public async Task<bool> MakePurchase()
+    //{
+    //    if (!CrossInAppBilling.IsSupported)
+    //        return false;
 
-        try
-        {
-            var billing = CrossInAppBilling.Current;
-            var connected = await billing.ConnectAsync(ItemType.InAppPurchase);
-            if (!connected)
-                return false;
+    //    try
+    //    {
+    //        var billing = CrossInAppBilling.Current;
+    //        var connected = await billing.ConnectAsync(ItemType.InAppPurchase);
+    //        if (!connected)
+    //            return false;
 
-            //make additional billing calls
+    //        //make additional billing calls
 
-        }
-        finally
-        {
-            await billing.DisconnectAsync();
-        }
-    }
+    //    }
+    //    finally
+    //    {
+    //        await billing.DisconnectAsync();
+    //    }
+    //}
 }

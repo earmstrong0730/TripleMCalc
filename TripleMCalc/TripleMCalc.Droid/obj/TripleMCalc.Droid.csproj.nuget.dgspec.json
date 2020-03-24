@@ -117,6 +117,8 @@
               "version": "[2.9.8, )"
             },
             "Microsoft.CodeQuality.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.9.8, )"
             },
