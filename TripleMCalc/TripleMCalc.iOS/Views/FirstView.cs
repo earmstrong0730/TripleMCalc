@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
-using TripleMCalc.Core.ViewModels;
+//using TripleMCalc.Core.ViewModels;
 
 namespace TripleMCalc.iOS.Views
 {
@@ -12,14 +12,14 @@ namespace TripleMCalc.iOS.Views
         {
         }
 
-        public override void ViewDidLoad()
-        {
-            base.ViewDidLoad();
+        //public override void ViewDidLoad()
+        //{
+        //    base.ViewDidLoad();
 
-            var set = this.CreateBindingSet<FirstView, FirstViewModel>();
-            set.Bind(Label).To(vm => vm.Hello);
-            set.Bind(TextField).To(vm => vm.Hello);
-            set.Apply();
-        }
+        //    var set = this.CreateBindingSet<FirstView, FirstViewModel>();
+        //    set.Bind(Label).To(vm => vm.Hello);
+        //    set.Bind(TextField).To(vm => vm.Hello);
+        //    set.Apply();
+        //}
     }
 }

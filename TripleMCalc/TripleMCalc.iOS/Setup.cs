@@ -20,8 +20,13 @@ namespace TripleMCalc.iOS
 
         protected override IMvxApplication CreateApp()
         {
-            return new Core.App();
+            throw new System.NotImplementedException();
         }
+
+        //protected override IMvxApplication CreateApp()
+        //{
+        //    return new Core.App();
+        //}
 
         protected override IMvxTrace CreateDebugTrace()
         {

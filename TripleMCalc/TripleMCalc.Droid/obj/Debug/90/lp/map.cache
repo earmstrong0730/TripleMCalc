@@ -5,6 +5,9 @@ MvvmCross.Droid.Support.Fragment
 MvvmCross.Droid.Support.V7.AppCompat
 MvvmCross.Droid.Support.V7.RecyclerView
 MvvmCross.Platform.Droid
+Plugin.CurrentActivity
+Plugin.InAppBilling
+Plugin.InAppBilling.VendingLibrary
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat

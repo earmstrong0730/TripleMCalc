@@ -4525,11 +4525,11 @@ namespace TripleMCalc.Droid
 			// aapt resource value: 0x7F090087
 			public const int text2 = 2131296391;
 			
-			// aapt resource value: 0x7F09008B
-			public const int textinput_counter = 2131296395;
+			// aapt resource value: 0x7F09008E
+			public const int textinput_counter = 2131296398;
 			
-			// aapt resource value: 0x7F09008C
-			public const int textinput_error = 2131296396;
+			// aapt resource value: 0x7F09008F
+			public const int textinput_error = 2131296399;
 			
 			// aapt resource value: 0x7F090088
 			public const int textSpacerNoButtons = 2131296392;
@@ -4538,64 +4538,73 @@ namespace TripleMCalc.Droid
 			public const int textSpacerNoTitle = 2131296393;
 			
 			// aapt resource value: 0x7F09008A
-			public const int text_input_password_toggle = 2131296394;
+			public const int textView1 = 2131296394;
+			
+			// aapt resource value: 0x7F09008B
+			public const int textView2 = 2131296395;
+			
+			// aapt resource value: 0x7F09008C
+			public const int textView3 = 2131296396;
 			
 			// aapt resource value: 0x7F09008D
-			public const int time = 2131296397;
-			
-			// aapt resource value: 0x7F09008E
-			public const int title = 2131296398;
-			
-			// aapt resource value: 0x7F09008F
-			public const int titleDividerNoCustom = 2131296399;
+			public const int text_input_password_toggle = 2131296397;
 			
 			// aapt resource value: 0x7F090090
-			public const int title_template = 2131296400;
+			public const int time = 2131296400;
 			
 			// aapt resource value: 0x7F090091
-			public const int top = 2131296401;
+			public const int title = 2131296401;
 			
 			// aapt resource value: 0x7F090092
-			public const int topPanel = 2131296402;
+			public const int titleDividerNoCustom = 2131296402;
 			
 			// aapt resource value: 0x7F090093
-			public const int touch_outside = 2131296403;
+			public const int title_template = 2131296403;
 			
 			// aapt resource value: 0x7F090094
-			public const int transition_current_scene = 2131296404;
+			public const int top = 2131296404;
 			
 			// aapt resource value: 0x7F090095
-			public const int transition_scene_layoutid_cache = 2131296405;
+			public const int topPanel = 2131296405;
 			
 			// aapt resource value: 0x7F090096
-			public const int txtMean = 2131296406;
+			public const int touch_outside = 2131296406;
 			
 			// aapt resource value: 0x7F090097
-			public const int txtMedian = 2131296407;
+			public const int transition_current_scene = 2131296407;
 			
 			// aapt resource value: 0x7F090098
-			public const int txtMode = 2131296408;
+			public const int transition_scene_layoutid_cache = 2131296408;
 			
 			// aapt resource value: 0x7F090099
-			public const int txtNum1 = 2131296409;
+			public const int txtMean = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int up = 2131296410;
+			public const int txtMedian = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int useLogo = 2131296411;
+			public const int txtMode = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int view_offset_helper = 2131296412;
+			public const int txtNum1 = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int visible = 2131296413;
+			public const int up = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int withText = 2131296414;
+			public const int useLogo = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int wrap_content = 2131296415;
+			public const int view_offset_helper = 2131296415;
+			
+			// aapt resource value: 0x7F0900A0
+			public const int visible = 2131296416;
+			
+			// aapt resource value: 0x7F0900A1
+			public const int withText = 2131296417;
+			
+			// aapt resource value: 0x7F0900A2
+			public const int wrap_content = 2131296418;
 			
 			static Id()
 			{

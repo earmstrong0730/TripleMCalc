@@ -8,6 +8,9 @@ using MvvmCross.Droid.Views;
 
 
 using MvvmCross.Droid.Support.V7.AppCompat;
+using System.Threading.Tasks;
+using Plugin.InAppBilling;
+using Plugin.InAppBilling.Abstractions;
 
 namespace TripleMCalc.Droid
 {
@@ -24,6 +27,27 @@ namespace TripleMCalc.Droid
         protected override void OnViewModelSet()
         {
             SetContentView(Resource.Layout.CalculatorLayout);
+        }
+    }
+
+    public async Task<bool> MakePurchase()
+    {
+        if (!CrossInAppBilling.IsSupported)
+            return false;
+
+        try
+        {
+            var billing = CrossInAppBilling.Current;
+            var connected = await billing.ConnectAsync(ItemType.InAppPurchase);
+            if (!connected)
+                return false;
+
+            //make additional billing calls
+
+        }
+        finally
+        {
+            await billing.DisconnectAsync();
         }
     }
 }
