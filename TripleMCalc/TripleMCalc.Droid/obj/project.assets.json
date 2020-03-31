@@ -224,7 +224,7 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.CurrentActivity/2.1.0.2": {
+      "Plugin.CurrentActivity/2.1.0.4": {
         "type": "package",
         "frameworkAssemblies": [
           "Java.Interop"
@@ -1648,16 +1648,16 @@
         "tools/install.ps1"
       ]
     },
-    "Plugin.CurrentActivity/2.1.0.2": {
-      "sha512": "uiMbA0G1ulSEj7MtGUQDDhzw80+QgvH5ts+Yt9cyft1dF4Eb0tYxiXAgNPuohJXpxhZmRs+6ZjL6QBaL/wUKDQ==",
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
       "type": "package",
-      "path": "plugin.currentactivity/2.1.0.2",
+      "path": "plugin.currentactivity/2.1.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/monoandroid44/Plugin.CurrentActivity.dll",
         "lib/monoandroid44/Plugin.CurrentActivity.xml",
-        "plugin.currentactivity.2.1.0.2.nupkg.sha512",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
         "plugin.currentactivity.nuspec",
         "readme.txt"
       ]
@@ -4531,6 +4531,7 @@
       "MvvmCross.Droid.Support.V7.AppCompat >= 5.2.1",
       "MvvmCross.Droid.Support.V7.RecyclerView >= 5.2.1",
       "MvvmCross.Platform >= 5.2.1",
+      "Plugin.CurrentActivity >= 2.1.0.4",
       "Plugin.InAppBilling >= 2.0.0",
       "TripleMCalc.Core >= 1.0.0",
       "Xamarin.Android.Support.Animated.Vector.Drawable >= 25.4.0.2",
@@ -4633,6 +4634,10 @@
           "MvvmCross.Platform": {
             "target": "Package",
             "version": "[5.2.1, )"
+          },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.4, )"
           },
           "Plugin.InAppBilling": {
             "target": "Package",

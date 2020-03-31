@@ -154,6 +154,10 @@
               "target": "Package",
               "version": "[5.2.1, )"
             },
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
             "Plugin.InAppBilling": {
               "target": "Package",
               "version": "[2.0.0, )"

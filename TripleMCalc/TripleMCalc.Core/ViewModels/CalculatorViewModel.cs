@@ -27,20 +27,22 @@ namespace TripleMCalc.Core
 
 
 
-        double _mean;
-		public double Mean
+        float _mean;
+		public float Mean
 		{
 			get { return _mean; }
 			set { _mean = value; RaisePropertyChanged(() => Mean); }
 		}
-        double _mode;
-        public double Mode
+
+        float _mode;
+        public float xMode
         {
             get { return _mode; }
-            set { _mode = value; RaisePropertyChanged(() => Mode); }
+            set { _mode = value; RaisePropertyChanged(() => xMode); }
         }
-        double _median;
-        public double Median
+
+        float _median;
+        public float Median
         {
             get { return _median; }
             set { _median = value; RaisePropertyChanged(() => Median); }
@@ -48,36 +50,33 @@ namespace TripleMCalc.Core
 
         void Recalculate()
         {
-
-            //for (int i = 0; i < NumberList; i++) //loop through the list of numbers that has been inputed and add them to number list
-            //{
-            //    numbers.Add(i); 
-            //}
             var numbers = NumberList.Split(',').Select(Int32.Parse).ToList();
 
             numbers.Sort(); //put the list on ascending order
             int nc = numbers.Count();
+            float NumbersSum = numbers.Sum();
 
-            Mean = (numbers.Sum() / numbers.Count()); //total the list and divide by the amouhnt of list items
+            Mean = (NumbersSum) / nc; //total the list and divide by the amouhnt of list items
 
+
+            if (nc % 2 != 0) //if amount of numbers is not even
+            {
+                Median = (numbers[nc / 2]); //take the middle number
+            }
+            //else //if amount of numbers is even
+            {
+                Median = (numbers[(nc - 1) / 2 ] + numbers[nc / 2]) / 2; //add the two middle numbers and take their average
+                
+            }
+           
             //Mode = numbers.GroupBy(v => v) //group the numbers together by value
             //.OrderByDescending(g => g.Count()) //order them by biggest group to smallest
             //.First()//choose the first number in this group now and that is the number that occures the most times
             //.Key;
-            Mode = numbers.GroupBy(n => n).
+            xMode = numbers.GroupBy(n => n).
             OrderByDescending(g => g.Count()).
             Select(g => g.Key).FirstOrDefault();
 
-            if (numbers.Count() % 2 != 0) //if amount of numbers is not even
-            {
-                Median = (double)(numbers[nc / 2]); //take the middle number
-            }
-            else //if amount of numbers is even
-            {
-                Median = (double)(numbers[(nc - 1) / 2 ] + numbers[nc / 2]) / 2; //add the two middle numbers and take their average
-                
-            }
-
         }
-	}
+    }
 }
