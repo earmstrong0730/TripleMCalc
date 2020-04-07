@@ -20,7 +20,4 @@
     </receiver>
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
   </application>
-  <!--
-  <uses-permission android:name="com.android.vending.BILLING" />
-  -->
 </manifest>

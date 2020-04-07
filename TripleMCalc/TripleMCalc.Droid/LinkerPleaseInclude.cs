@@ -11,82 +11,82 @@ namespace TripleMCalc.Droid
     // are preserved in the deployed app
     public class LinkerPleaseInclude
     {
-        public void Include(Button button)
+        public static void Include(Button button)
         {
             button.Click += (s, e) => button.Text = button.Text + "";
         }
 
-        public void Include(CheckBox checkBox)
+        public static void Include(CheckBox checkBox)
         {
             checkBox.CheckedChange += (sender, args) => checkBox.Checked = !checkBox.Checked;
         }
 
-        public void Include(Switch @switch)
+        public static void Include(Switch @switch)
         {
             @switch.CheckedChange += (sender, args) => @switch.Checked = !@switch.Checked;
         }
 
-        public void Include(View view)
+        public static void Include(View view)
         {
             view.Click += (s, e) => view.ContentDescription = view.ContentDescription + "";
         }
 
-        public void Include(TextView text)
+        public static void Include(TextView text)
         {
             text.AfterTextChanged += (sender, args) => text.Text = "" + text.Text;
             text.Hint = "" + text.Hint;
         }
 
-        public void Include(CheckedTextView text)
+        public static void Include(CheckedTextView text)
         {
             text.AfterTextChanged += (sender, args) => text.Text = "" + text.Text;
             text.Hint = "" + text.Hint;
         }
 
-        public void Include(CompoundButton cb)
+        public static void Include(CompoundButton cb)
         {
             cb.CheckedChange += (sender, args) => cb.Checked = !cb.Checked;
         }
 
-        public void Include(SeekBar sb)
+        public static void Include(SeekBar sb)
         {
             sb.ProgressChanged += (sender, args) => sb.Progress = sb.Progress + 1;
         }
 
-        public void Include(RadioGroup radioGroup)
+        public static void Include(RadioGroup radioGroup)
         {
             radioGroup.CheckedChange += (sender, args) => radioGroup.Check(args.CheckedId);
         }
 
-        public void Include(RadioButton radioButton)
+        public static void Include(RadioButton radioButton)
         {
             radioButton.CheckedChange += (sender, args) => radioButton.Checked = args.IsChecked;
         }
 
-        public void Include(RatingBar ratingBar)
+        public static void Include(RatingBar ratingBar)
         {
             ratingBar.RatingBarChange += (sender, args) => ratingBar.Rating = 0 + ratingBar.Rating;
         }
 
-        public void Include(Activity act)
+        public static void Include(Activity act)
         {
             act.Title = act.Title + "";
         }
 
-        public void Include(INotifyCollectionChanged changed)
+        public static void Include(INotifyCollectionChanged changed)
         {
             changed.CollectionChanged += (s, e) => { var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}"; };
         }
-        public void Include(ICommand command)
+        public static void Include(ICommand command)
         {
             command.CanExecuteChanged += (s, e) => { if (command.CanExecute(null)) command.Execute(null); };
         }
 
-        public void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
+        public static void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
         {
             injector = new MvvmCross.Platform.IoC.MvxPropertyInjector();
         }
-        public void Include(System.ComponentModel.INotifyPropertyChanged changed)
+        public static void Include(System.ComponentModel.INotifyPropertyChanged changed)
         {
             changed.PropertyChanged += (sender, e) =>
             {
@@ -94,7 +94,7 @@ namespace TripleMCalc.Droid
             };
         }
 
-        public void Include(MvxTaskBasedBindingContext context)
+        public static void Include(MvxTaskBasedBindingContext context)
         {
             context.Dispose();
             var context2 = new MvxTaskBasedBindingContext();

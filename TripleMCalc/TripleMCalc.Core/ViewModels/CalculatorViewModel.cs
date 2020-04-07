@@ -34,11 +34,11 @@ namespace TripleMCalc.Core
 			set { _mean = value; RaisePropertyChanged(() => Mean); }
 		}
 
-        float _mode;
+        float _xmode;
         public float xMode
         {
-            get { return _mode; }
-            set { _mode = value; RaisePropertyChanged(() => xMode); }
+            get { return _xmode; }
+            set { _xmode = value; RaisePropertyChanged(() => xMode); }
         }
 
         float _median;
