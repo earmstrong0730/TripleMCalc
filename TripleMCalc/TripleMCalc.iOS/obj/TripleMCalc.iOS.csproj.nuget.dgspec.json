@@ -63,6 +63,14 @@
               "target": "Package",
               "version": "[1.6.1, )",
               "autoReferenced": true
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Plugin.InAppBilling": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

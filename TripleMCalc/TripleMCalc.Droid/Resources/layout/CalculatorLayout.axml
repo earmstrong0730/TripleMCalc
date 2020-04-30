@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -19,7 +20,7 @@
         android:id="@+id/txtNum1" />
     <TextView
         android:text="Mean:"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
@@ -31,7 +32,7 @@
         android:textSize="30dp" />
     <TextView
         android:text="Mode:"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2" />
@@ -43,7 +44,7 @@
         android:textSize="30dp" />
     <TextView
         android:text="Median:"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView3" />
@@ -53,4 +54,16 @@
         android:id="@+id/txtMedian"
         local:MvxBind="Text Median"
         android:textSize="30dp" />
+    <TextView
+        android:text="In-app Billing Status:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/billingResponseLabel" />
+    <Button
+        android:text="Buy Median and Mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/makePurchaseBtn"
+        local:MvxBind="Click MakePurchaseCommand"/>
 </LinearLayout>
