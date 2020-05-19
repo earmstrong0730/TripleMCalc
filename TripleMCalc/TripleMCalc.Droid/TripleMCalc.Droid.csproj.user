@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <AndroidDesignerPreferredTheme>MyTheme</AndroidDesignerPreferredTheme>
-    <SelectedDevice>nexus_5x_oreo_8_0_api_26</SelectedDevice>
+    <SelectedDevice>Samsung SM-T290</SelectedDevice>
     <DefaultDevice>nexus_5x_oreo_8_0_api_26</DefaultDevice>
   </PropertyGroup>
 </Project>

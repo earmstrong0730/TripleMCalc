@@ -12,7 +12,7 @@ namespace TripleMCalc.Core
     public class CalculatorViewModel : MvxViewModel
     {
         List<int> numbers = new List<int>(); //initiliaze list that numbers will be added to
-
+        private int _count = 0;
         string _numberList;
         public string NumberList
         {
@@ -21,36 +21,14 @@ namespace TripleMCalc.Core
             //AsyncContext.Run(Recalculate)
             //Recalculate();
         }
-        //how to deal with 
-        //    public class LogReader
-        //{
-        //    ILogger _logger;
-
-        //    public LogReader(ILogger logger)
-        //    {
-        //        _logger = logger;
-        //    }
-
-        //    public LogEntity GetLog()
-        //    {
-        //        Task<LogEntity> task = Task.Run<LogEntity>(async () => await GetLogAsync());
-        //        return task.Result;
-        //    }
-
-        //    public async Task<LogEntity> GetLogAsync()
-        //    {
-        //        var result = await _logger.GetAsync();
-        //        // more code here...
-        //        return result as LogEntity;
-        //    }
-        //}
 
 
-        string _responce_text; //get and set the response text
-        public string responce_text
+
+       private string _responseText; //get and set the response text
+        public string responseText
         {
-            get { return _responce_text; } 
-            set { _responce_text = value; }
+            get { return _responseText; } 
+            set { _responseText = value; RaisePropertyChanged(() => responseText); }
         }
 
         float _mean;
@@ -105,7 +83,6 @@ namespace TripleMCalc.Core
             } //end of if purchased statement 
         }
 
-        //Task<InAppBillingPurchase> PurchaseAsync(string productId, ItemType itemType, string payload, IInAppBillingVerifyPurchase verifyPurchase = null);
         private MvxAsyncCommand _makePurchaseCommand;
 
         public MvxAsyncCommand MakePurchaseCommand
@@ -114,18 +91,16 @@ namespace TripleMCalc.Core
             set => SetProperty(ref _makePurchaseCommand, value);
         }
 
-        //public MvxAsyncCommand CheckPurchaseCommand { get; }
-
         //buy Button Stuff
         public CalculatorViewModel()
         {
             MakePurchaseCommand = new MvxAsyncCommand(ButtonWasPressed);
-            //CheckPurchaseCommand = new MvxAsyncCommand(CheckPurchase);
         }
 
         public async Task ButtonWasPressed()
         {
             await MakePurchase("meanmediananswers");
+           // responseText="Hello";
         }
 
         public async Task CheckPurchase()
@@ -136,9 +111,9 @@ namespace TripleMCalc.Core
 
         async Task UpdateResponse(string _string)
         {
-           // _count++;
-            RaisePropertyChanged(() => responce_text);
-            //responce_text.Text = responce_text.Text + _count + " . " + _string + ".\n\n";
+           _count++;
+            //RaisePropertyChanged(() => responseText);
+            responseText = responseText + _count + " . " + _string + ".\n\n";
         }
 
         //public async Task MakePurchase(string productId, string payload)
@@ -167,7 +142,7 @@ namespace TripleMCalc.Core
                     //Connecting to the API.
                     bool connected = await billing.ConnectAsync(ItemType.InAppPurchase); //ConnectAsync ensures a valid connecion to the app store
 
-                    if (!connected) //check befroe calling API tp see if it is supported on the platform where the code is running
+                    if (!connected) //check before calling API tp see if it is supported on the platform where the code is running
                     {
                         await UpdateResponse("We are offline or can't connect, don't try to purchase");
                         return;
@@ -229,8 +204,6 @@ namespace TripleMCalc.Core
                     await UpdateResponse("Disconnected from the Billing API");
                 }
         }
-
-
 
         public async Task<bool> WasItemPurchased(string productId) //calculate whether the item has been purchased or not
         {

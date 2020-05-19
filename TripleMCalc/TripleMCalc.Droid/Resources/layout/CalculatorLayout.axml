@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Enter your list, seperate numbers with commas"
+        android:text="Enter your list, separate numbers with commas"
         android:textSize="30dp"
         android:layout_marginBottom="20dp" />
     <EditText
@@ -60,6 +60,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/billingResponseLabel" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBillingStatus"
+        local:MvxBind="Text responseText"
+        android:textSize="30dp" />
     <Button
         android:text="Buy Median and Mode"
         android:layout_width="match_parent"

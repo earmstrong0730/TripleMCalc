@@ -4575,34 +4575,37 @@ namespace TripleMCalc.Droid
 			public const int transition_scene_layoutid_cache = 2131296408;
 			
 			// aapt resource value: 0x7F090099
-			public const int txtMean = 2131296409;
+			public const int txtBillingStatus = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int txtMedian = 2131296410;
+			public const int txtMean = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int txtMode = 2131296411;
+			public const int txtMedian = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int txtNum1 = 2131296412;
+			public const int txtMode = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int up = 2131296413;
+			public const int txtNum1 = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int useLogo = 2131296414;
+			public const int up = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int view_offset_helper = 2131296415;
+			public const int useLogo = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int visible = 2131296416;
+			public const int view_offset_helper = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int withText = 2131296417;
+			public const int visible = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int wrap_content = 2131296418;
+			public const int withText = 2131296418;
+			
+			// aapt resource value: 0x7F0900A3
+			public const int wrap_content = 2131296419;
 			
 			static Id()
 			{

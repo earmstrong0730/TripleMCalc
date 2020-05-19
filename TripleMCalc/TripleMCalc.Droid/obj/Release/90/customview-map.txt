@@ -1,5 +1,6 @@
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+Button;obj\Release\90\res\layout\calculatorlayout.xml
 color;obj\Release\90\res\values\colors.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml

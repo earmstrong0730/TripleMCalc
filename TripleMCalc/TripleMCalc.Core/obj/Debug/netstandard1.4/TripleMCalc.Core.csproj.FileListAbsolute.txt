@@ -12,4 +12,3 @@ C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.AssemblyInfo.cs
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.dll
 C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.pdb
-C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Core\obj\Debug\netstandard1.4\TripleMCalc.Core.csprojAssemblyReference.cache

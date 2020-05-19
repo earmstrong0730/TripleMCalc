@@ -2,7 +2,7 @@ package md5b3a9374873cf101dd6569caa26673257;
 
 
 public class Calculator
-	extends mvvmcross.droid.views.MvxActivity
+	extends md5716162e2cd7f7ce01364d7c5d961f40b.MvxAppCompatActivity_1
 	implements
 		mono.android.IGCUserPeer
 {

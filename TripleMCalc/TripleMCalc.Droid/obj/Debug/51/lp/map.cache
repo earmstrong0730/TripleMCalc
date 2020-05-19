@@ -1,0 +1,6 @@
+MvvmCross.Binding.Droid
+MvvmCross.Droid
+MvvmCross.Platform.Droid
+Plugin.CurrentActivity
+Plugin.InAppBilling
+Plugin.InAppBilling.VendingLibrary

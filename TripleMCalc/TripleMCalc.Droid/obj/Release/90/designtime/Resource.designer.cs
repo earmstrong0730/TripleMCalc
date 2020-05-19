@@ -4341,67 +4341,67 @@ namespace TripleMCalc.Droid
 			public const int list_item = 2131296330;
 			
 			// aapt resource value: 0x7F09004B
-			public const int masked = 2131296331;
+			public const int makePurchaseBtn = 2131296331;
 			
 			// aapt resource value: 0x7F09004C
-			public const int media_actions = 2131296332;
+			public const int masked = 2131296332;
 			
 			// aapt resource value: 0x7F09004D
-			public const int middle = 2131296333;
+			public const int media_actions = 2131296333;
 			
 			// aapt resource value: 0x7F09004E
-			public const int mini = 2131296334;
+			public const int middle = 2131296334;
 			
 			// aapt resource value: 0x7F09004F
-			public const int multiply = 2131296335;
+			public const int mini = 2131296335;
 			
 			// aapt resource value: 0x7F090050
-			public const int MvvmCrossTagId = 2131296336;
+			public const int multiply = 2131296336;
 			
 			// aapt resource value: 0x7F090051
-			public const int MvxBindingTagUnique = 2131296337;
+			public const int MvvmCrossTagId = 2131296337;
 			
 			// aapt resource value: 0x7F090052
-			public const int navigation_header_container = 2131296338;
+			public const int MvxBindingTagUnique = 2131296338;
 			
 			// aapt resource value: 0x7F090053
-			public const int never = 2131296339;
+			public const int navigation_header_container = 2131296339;
 			
 			// aapt resource value: 0x7F090054
-			public const int none = 2131296340;
+			public const int never = 2131296340;
 			
 			// aapt resource value: 0x7F090055
-			public const int normal = 2131296341;
+			public const int none = 2131296341;
 			
 			// aapt resource value: 0x7F090056
-			public const int notification_background = 2131296342;
+			public const int normal = 2131296342;
 			
 			// aapt resource value: 0x7F090057
-			public const int notification_main_column = 2131296343;
+			public const int notification_background = 2131296343;
 			
 			// aapt resource value: 0x7F090058
-			public const int notification_main_column_container = 2131296344;
+			public const int notification_main_column = 2131296344;
 			
 			// aapt resource value: 0x7F090059
-			public const int parallax = 2131296345;
+			public const int notification_main_column_container = 2131296345;
 			
 			// aapt resource value: 0x7F09005A
-			public const int parentPanel = 2131296346;
+			public const int parallax = 2131296346;
 			
 			// aapt resource value: 0x7F09005B
-			public const int pin = 2131296347;
+			public const int parentPanel = 2131296347;
 			
 			// aapt resource value: 0x7F09005C
-			public const int progress_circular = 2131296348;
+			public const int pin = 2131296348;
 			
 			// aapt resource value: 0x7F09005D
-			public const int progress_horizontal = 2131296349;
+			public const int progress_circular = 2131296349;
 			
 			// aapt resource value: 0x7F09005E
-			public const int radio = 2131296350;
+			public const int progress_horizontal = 2131296350;
 			
 			// aapt resource value: 0x7F09005F
-			public const int responsetxt = 2131296351;
+			public const int radio = 2131296351;
 			
 			// aapt resource value: 0x7F090060
 			public const int right = 2131296352;
@@ -4575,34 +4575,37 @@ namespace TripleMCalc.Droid
 			public const int transition_scene_layoutid_cache = 2131296408;
 			
 			// aapt resource value: 0x7F090099
-			public const int txtMean = 2131296409;
+			public const int txtBillingStatus = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int txtMedian = 2131296410;
+			public const int txtMean = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int txtMode = 2131296411;
+			public const int txtMedian = 2131296411;
 			
 			// aapt resource value: 0x7F09009C
-			public const int txtNum1 = 2131296412;
+			public const int txtMode = 2131296412;
 			
 			// aapt resource value: 0x7F09009D
-			public const int up = 2131296413;
+			public const int txtNum1 = 2131296413;
 			
 			// aapt resource value: 0x7F09009E
-			public const int useLogo = 2131296414;
+			public const int up = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int view_offset_helper = 2131296415;
+			public const int useLogo = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int visible = 2131296416;
+			public const int view_offset_helper = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int withText = 2131296417;
+			public const int visible = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int wrap_content = 2131296418;
+			public const int withText = 2131296418;
+			
+			// aapt resource value: 0x7F0900A3
+			public const int wrap_content = 2131296419;
 			
 			static Id()
 			{
