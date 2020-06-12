@@ -67,7 +67,7 @@
         local:MvxBind="Text responseText"
         android:textSize="30dp" />
     <Button
-        android:text="Buy Median and Mode"
+        android:text="Buy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/makePurchaseBtn"
