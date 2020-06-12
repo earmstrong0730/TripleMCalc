@@ -34,11 +34,14 @@ namespace TripleMCalc.Droid
             SetContentView(Resource.Layout.CalculatorLayout);
         }
 
-        //protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
-        //{
-        //    base.OnActivityResult(requestCode, resultCode, data);
-        //    InAppBillingImplementation.HandleActivityResult(requestCode, resultCode, data);
-        //}
+
+        //this might only be for Xamarin forms?? Refer to https://devblogs.microsoft.com/xamarin/integrating-in-app-purchases-in-mobile-apps/
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            InAppBillingImplementation.HandleActivityResult(requestCode, resultCode, data);
+        }
 
     }
 }

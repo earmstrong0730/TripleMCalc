@@ -2823,20 +2823,22 @@ public final class R {
     public static final int design_ic_visibility_off=0x7f08005e;
     public static final int design_password_eye=0x7f08005f;
     public static final int design_snackbar_background=0x7f080060;
-    public static final int navigation_empty_icon=0x7f080061;
-    public static final int notification_action_background=0x7f080062;
-    public static final int notification_bg=0x7f080063;
-    public static final int notification_bg_low=0x7f080064;
-    public static final int notification_bg_low_normal=0x7f080065;
-    public static final int notification_bg_low_pressed=0x7f080066;
-    public static final int notification_bg_normal=0x7f080067;
-    public static final int notification_bg_normal_pressed=0x7f080068;
-    public static final int notification_icon_background=0x7f080069;
-    public static final int notification_template_icon_bg=0x7f08006a;
-    public static final int notification_template_icon_low_bg=0x7f08006b;
-    public static final int notification_tile_bg=0x7f08006c;
-    public static final int notify_panel_notification_icon_bg=0x7f08006d;
-    public static final int splash=0x7f08006e;
+    public static final int launch_image=0x7f080061;
+    public static final int navigation_empty_icon=0x7f080062;
+    public static final int notification_action_background=0x7f080063;
+    public static final int notification_bg=0x7f080064;
+    public static final int notification_bg_low=0x7f080065;
+    public static final int notification_bg_low_normal=0x7f080066;
+    public static final int notification_bg_low_pressed=0x7f080067;
+    public static final int notification_bg_normal=0x7f080068;
+    public static final int notification_bg_normal_pressed=0x7f080069;
+    public static final int notification_icon_background=0x7f08006a;
+    public static final int notification_template_icon_bg=0x7f08006b;
+    public static final int notification_template_icon_low_bg=0x7f08006c;
+    public static final int notification_tile_bg=0x7f08006d;
+    public static final int notify_panel_notification_icon_bg=0x7f08006e;
+    public static final int splash=0x7f08006f;
+    public static final int splashscreen=0x7f080070;
   }
   public static final class id {
     public static final int MvvmCrossTagId=0x7f090000;
@@ -3079,7 +3081,8 @@ public final class R {
     public static final int select_dialog_item_material=0x7f0b0039;
     public static final int select_dialog_multichoice_material=0x7f0b003a;
     public static final int select_dialog_singlechoice_material=0x7f0b003b;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b003c;
+    public static final int splashscreen=0x7f0b003c;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b003d;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0c0000;

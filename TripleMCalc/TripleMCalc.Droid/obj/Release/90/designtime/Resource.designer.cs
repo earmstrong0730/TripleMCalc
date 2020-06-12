@@ -4061,46 +4061,52 @@ namespace TripleMCalc.Droid
 			public const int design_snackbar_background = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int navigation_empty_icon = 2131230811;
+			public const int launch_image = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int notification_action_background = 2131230812;
+			public const int navigation_empty_icon = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int notification_bg = 2131230813;
+			public const int notification_action_background = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int notification_bg_low = 2131230814;
+			public const int notification_bg = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int notification_bg_low_normal = 2131230815;
+			public const int notification_bg_low = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int notification_bg_low_pressed = 2131230816;
+			public const int notification_bg_low_normal = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int notification_bg_normal = 2131230817;
+			public const int notification_bg_low_pressed = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int notification_bg_normal_pressed = 2131230818;
+			public const int notification_bg_normal = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int notification_icon_background = 2131230819;
+			public const int notification_bg_normal_pressed = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int notification_template_icon_bg = 2131230820;
+			public const int notification_icon_background = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int notification_template_icon_low_bg = 2131230821;
+			public const int notification_template_icon_bg = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int notification_tile_bg = 2131230822;
+			public const int notification_template_icon_low_bg = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int notify_panel_notification_icon_bg = 2131230823;
+			public const int notification_tile_bg = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int splash = 2131230824;
+			public const int notify_panel_notification_icon_bg = 2131230824;
+			
+			// aapt resource value: 0x7F080069
+			public const int splash = 2131230825;
+			
+			// aapt resource value: 0x7F08006A
+			public const int splashscreen = 2131230826;
 			
 			static Drawable()
 			{
@@ -4844,7 +4850,10 @@ namespace TripleMCalc.Droid
 			public const int select_dialog_singlechoice_material = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int support_simple_spinner_dropdown_item = 2131427388;
+			public const int SplashScreen = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int support_simple_spinner_dropdown_item = 2131427389;
 			
 			static Layout()
 			{

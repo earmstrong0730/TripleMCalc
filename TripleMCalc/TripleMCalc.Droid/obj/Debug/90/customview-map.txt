@@ -1,23 +1,27 @@
-attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+bitmap;obj\Debug\90\res\drawable\splashscreen.xml
 Button;obj\Debug\90\res\layout\calculatorlayout.xml
 color;obj\Debug\90\res\values\colors.xml
-declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 dimen;obj\Debug\90\res\values\dimens.xml
 EditText;obj\Debug\90\res\layout\calculatorlayout.xml
 integer;obj\Debug\90\res\values\integers.xml
-item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
-item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
+item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+item;obj\Debug\90\res\drawable\splashscreen.xml
 item;obj\Debug\90\res\values\arrays.xml
 item;obj\Debug\90\res\values\splashstyle.xml
 item;obj\Debug\90\res\values\styles.xml
 item;obj\Debug\90\res\values-v21\styles.xml
+layer-list;obj\Debug\90\res\drawable\splashscreen.xml
 LinearLayout;obj\Debug\90\res\layout\calculatorlayout.xml
-resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
-resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
-resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\4\jl\res\xml\empty.xml
-resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+LinearLayout;obj\Debug\90\res\layout\splashscreen.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\4\jl\res\xml\empty.xml
+resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\SubscriptionCalculator\TripleMCalc\TripleMCalc.Droid\obj\Debug\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
 resources;obj\Debug\90\res\values\arrays.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\dimens.xml
@@ -26,9 +30,12 @@ resources;obj\Debug\90\res\values\splashstyle.xml
 resources;obj\Debug\90\res\values\strings.xml
 resources;obj\Debug\90\res\values\styles.xml
 resources;obj\Debug\90\res\values-v21\styles.xml
+shape;obj\Debug\90\res\drawable\splashscreen.xml
+solid;obj\Debug\90\res\drawable\splashscreen.xml
 string;obj\Debug\90\res\values\strings.xml
 string-array;obj\Debug\90\res\values\arrays.xml
 style;obj\Debug\90\res\values\splashstyle.xml
 style;obj\Debug\90\res\values\styles.xml
 style;obj\Debug\90\res\values-v21\styles.xml
 TextView;obj\Debug\90\res\layout\calculatorlayout.xml
+TextView;obj\Debug\90\res\layout\splashscreen.xml

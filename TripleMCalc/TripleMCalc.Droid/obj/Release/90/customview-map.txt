@@ -1,5 +1,6 @@
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
 attr;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\5\jl\res\values\mvxrecyclerviewbindingattributes.xml
+bitmap;obj\Release\90\res\drawable\splashscreen.xml
 Button;obj\Release\90\res\layout\calculatorlayout.xml
 color;obj\Release\90\res\values\colors.xml
 declare-styleable;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
@@ -9,11 +10,14 @@ EditText;obj\Release\90\res\layout\calculatorlayout.xml
 integer;obj\Release\90\res\values\integers.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\ids.xml
 item;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
+item;obj\Release\90\res\drawable\splashscreen.xml
 item;obj\Release\90\res\values\arrays.xml
 item;obj\Release\90\res\values\splashstyle.xml
 item;obj\Release\90\res\values\styles.xml
 item;obj\Release\90\res\values-v21\styles.xml
+layer-list;obj\Release\90\res\drawable\splashscreen.xml
 LinearLayout;obj\Release\90\res\layout\calculatorlayout.xml
+LinearLayout;obj\Release\90\res\layout\splashscreen.xml
 resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\ids.xml
 resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\0\jl\res\values\mvxbindingattributes.xml
 resources;C:\Users\Elizabeth\Documents\Visual Studio 2019\Projects\TripleMCalc\TripleMCalc\TripleMCalc.Droid\obj\Release\90\lp\4\jl\res\xml\empty.xml
@@ -26,9 +30,12 @@ resources;obj\Release\90\res\values\splashstyle.xml
 resources;obj\Release\90\res\values\strings.xml
 resources;obj\Release\90\res\values\styles.xml
 resources;obj\Release\90\res\values-v21\styles.xml
+shape;obj\Release\90\res\drawable\splashscreen.xml
+solid;obj\Release\90\res\drawable\splashscreen.xml
 string;obj\Release\90\res\values\strings.xml
 string-array;obj\Release\90\res\values\arrays.xml
 style;obj\Release\90\res\values\splashstyle.xml
 style;obj\Release\90\res\values\styles.xml
 style;obj\Release\90\res\values-v21\styles.xml
 TextView;obj\Release\90\res\layout\calculatorlayout.xml
+TextView;obj\Release\90\res\layout\splashscreen.xml
